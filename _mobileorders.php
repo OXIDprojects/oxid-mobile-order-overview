@@ -73,7 +73,7 @@ $status = oxRegistry::getConfig()->getConfigParam('aOrderfolder');
                             	Status: <i style="color: <?php echo $status[$order->oxorder__oxfolder->value]; ?>"><?php echo $order->oxorder__oxfolder->value ?></i><br>
                             	Bestellt: <i><?php echo $order->oxorder__oxorderdate->value ?></i><br>
                             	Bezahlt: <i><?php echo $order->oxorder__oxpaid->value ?></i><br>
-                            	Versendet: <i><?php echo $order->oxorder__oxsendddate->value ?></i><br>
+                            	Versendet: <i><?php echo $order->oxorder__oxsenddate->value ?></i><br>
                             	Zahlart: <i><?php echo $order->oxorder__oxpaymenttype->value ?></i><br>
                             	Versandart: <i><?php echo $order->oxorder__oxdeltype->value ?></i>
 			  	<br><br>
